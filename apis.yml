@@ -1,8 +1,28 @@
 aid: mentor-collective
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mentor-collective.png
 name: Mentor Collective
-description: Mentor Collective is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Mentor Collective operates an AI Mentorship OS for higher education, powering
+  peer mentoring, student success, and retention programs at colleges and
+  universities. Its platform matches and onboards mentors and mentees, guides
+  conversations with AI prompts, surfaces risk signals and belonging gaps, and
+  turns connection data into real-time retention intelligence for institutions.
+  Backed by Techstars, the company serves higher-education and workforce
+  partners. As of this profile Mentor Collective publishes no public API,
+  developer portal, SDKs, or machine-readable specifications; this repo captures
+  its public web, blog, legal, and domain-security surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/mentor-collective/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- Higher Education
+- Mentorship
+- Student Success
+- Retention
+- EdTech
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://mentorcollective.org/
+- type: Blog
+  url: https://mentorcollective.org/blog
+- type: Support
+  url: https://mentorcollective.org/contact
+- type: PrivacyPolicy
+  url: https://www.mentorcollective.org/privacy-policy
+- type: TermsOfService
+  url: https://www.mentorcollective.org/terms-of-use
+- type: DomainSecurity
+  url: security/mentor-collective-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
